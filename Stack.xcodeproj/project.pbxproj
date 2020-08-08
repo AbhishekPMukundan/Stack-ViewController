@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		463368D424DF0EBA00FF5713 /* Stack.png in Resources */ = {isa = PBXBuildFile; fileRef = 463368D324DF0EBA00FF5713 /* Stack.png */; };
 		46CA81BA24CC89B30083598B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81B924CC89B30083598B /* AppDelegate.swift */; };
 		46CA81BC24CC89B30083598B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81BB24CC89B30083598B /* SceneDelegate.swift */; };
 		46CA81BE24CC89B30083598B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81BD24CC89B30083598B /* ViewController.swift */; };
 		46CA81C124CC89B30083598B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CA81BF24CC89B30083598B /* Main.storyboard */; };
 		46CA81C324CC89B40083598B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CA81C224CC89B40083598B /* Assets.xcassets */; };
 		46CA81C624CC89B40083598B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CA81C424CC89B40083598B /* LaunchScreen.storyboard */; };
+		46CA81D224CC89E00083598B /* AmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81D024CC89E00083598B /* AmountViewController.swift */; };
+		46CA81D324CC89E00083598B /* AmountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CA81D124CC89E00083598B /* AmountViewController.xib */; };
+		46CA81D624CC89EE0083598B /* EMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81D424CC89EE0083598B /* EMIViewController.swift */; };
+		46CA81D724CC89EE0083598B /* EMIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CA81D524CC89EE0083598B /* EMIViewController.xib */; };
+		46CA81DA24CC89F80083598B /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81D824CC89F80083598B /* BankViewController.swift */; };
+		46CA81DB24CC89F80083598B /* BankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CA81D924CC89F80083598B /* BankViewController.xib */; };
+		46CA81DE24CC8A430083598B /* StackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81DD24CC8A430083598B /* StackController.swift */; };
+		46CA81E124CC8E340083598B /* CTA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81DF24CC8E340083598B /* CTA.swift */; };
+		46CA81E224CC8E340083598B /* CTA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CA81E024CC8E340083598B /* CTA.xib */; };
+		46CA81E424CCCCD30083598B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA81E324CCCCD30083598B /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		463368D324DF0EBA00FF5713 /* Stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stack.png; sourceTree = "<group>"; };
 		46CA81B624CC89B30083598B /* Stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CA81B924CC89B30083598B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46CA81BB24CC89B30083598B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,18 @@
 		46CA81C224CC89B40083598B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46CA81C524CC89B40083598B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46CA81C724CC89B40083598B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CA81D024CC89E00083598B /* AmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountViewController.swift; sourceTree = "<group>"; };
+		46CA81D124CC89E00083598B /* AmountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmountViewController.xib; sourceTree = "<group>"; };
+		46CA81D424CC89EE0083598B /* EMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMIViewController.swift; sourceTree = "<group>"; };
+		46CA81D524CC89EE0083598B /* EMIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EMIViewController.xib; sourceTree = "<group>"; };
+		46CA81D824CC89F80083598B /* BankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
+		46CA81D924CC89F80083598B /* BankViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankViewController.xib; sourceTree = "<group>"; };
+		46CA81DD24CC8A430083598B /* StackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackController.swift; sourceTree = "<group>"; };
+		46CA81DF24CC8E340083598B /* CTA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTA.swift; sourceTree = "<group>"; };
+		46CA81E024CC8E340083598B /* CTA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CTA.xib; sourceTree = "<group>"; };
+		46CA81E324CCCCD30083598B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		46CA81E524CCE7670083598B /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		46CA81E624CCE7670083598B /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,13 @@
 		46CA81B824CC89B30083598B /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				463368D324DF0EBA00FF5713 /* Stack.png */,
+				46CA81E624CCE7670083598B /* Gilroy-ExtraBold.otf */,
+				46CA81E524CCE7670083598B /* Gilroy-Light.otf */,
+				46CA81DC24CC8A310083598B /* Stack */,
+				46CA81CF24CC89CE0083598B /* 3rd */,
+				46CA81CE24CC89C80083598B /* 2nd */,
+				46CA81CD24CC89BC0083598B /* 1st */,
 				46CA81B924CC89B30083598B /* AppDelegate.swift */,
 				46CA81BB24CC89B30083598B /* SceneDelegate.swift */,
 				46CA81BD24CC89B30083598B /* ViewController.swift */,
@@ -63,6 +94,44 @@
 				46CA81C224CC89B40083598B /* Assets.xcassets */,
 				46CA81C424CC89B40083598B /* LaunchScreen.storyboard */,
 				46CA81C724CC89B40083598B /* Info.plist */,
+				46CA81E324CCCCD30083598B /* Extension.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		46CA81CD24CC89BC0083598B /* 1st */ = {
+			isa = PBXGroup;
+			children = (
+				46CA81D024CC89E00083598B /* AmountViewController.swift */,
+				46CA81D124CC89E00083598B /* AmountViewController.xib */,
+			);
+			path = 1st;
+			sourceTree = "<group>";
+		};
+		46CA81CE24CC89C80083598B /* 2nd */ = {
+			isa = PBXGroup;
+			children = (
+				46CA81D424CC89EE0083598B /* EMIViewController.swift */,
+				46CA81D524CC89EE0083598B /* EMIViewController.xib */,
+			);
+			path = 2nd;
+			sourceTree = "<group>";
+		};
+		46CA81CF24CC89CE0083598B /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				46CA81D824CC89F80083598B /* BankViewController.swift */,
+				46CA81D924CC89F80083598B /* BankViewController.xib */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		46CA81DC24CC8A310083598B /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				46CA81DD24CC8A430083598B /* StackController.swift */,
+				46CA81DF24CC8E340083598B /* CTA.swift */,
+				46CA81E024CC8E340083598B /* CTA.xib */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -127,7 +196,12 @@
 			files = (
 				46CA81C624CC89B40083598B /* LaunchScreen.storyboard in Resources */,
 				46CA81C324CC89B40083598B /* Assets.xcassets in Resources */,
+				463368D424DF0EBA00FF5713 /* Stack.png in Resources */,
+				46CA81DB24CC89F80083598B /* BankViewController.xib in Resources */,
+				46CA81E224CC8E340083598B /* CTA.xib in Resources */,
 				46CA81C124CC89B30083598B /* Main.storyboard in Resources */,
+				46CA81D324CC89E00083598B /* AmountViewController.xib in Resources */,
+				46CA81D724CC89EE0083598B /* EMIViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46CA81E424CCCCD30083598B /* Extension.swift in Sources */,
 				46CA81BE24CC89B30083598B /* ViewController.swift in Sources */,
 				46CA81BA24CC89B30083598B /* AppDelegate.swift in Sources */,
 				46CA81BC24CC89B30083598B /* SceneDelegate.swift in Sources */,
+				46CA81D624CC89EE0083598B /* EMIViewController.swift in Sources */,
+				46CA81E124CC8E340083598B /* CTA.swift in Sources */,
+				46CA81DE24CC8A430083598B /* StackController.swift in Sources */,
+				46CA81DA24CC89F80083598B /* BankViewController.swift in Sources */,
+				46CA81D224CC89E00083598B /* AmountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
